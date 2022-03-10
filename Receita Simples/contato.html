@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <title>Receitas Simples</title>
+  <script href="./js/main.js"></script>
+</head>
+
+<body>
+  <!--navegação-->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> Inicio</a>
+        <a href="sobre.html" class="nav-link"> Sobre</a>
+        <a href="marcacao.html" class="nav-link"> Menu</a>
+        <a href="receitas.html" class="nav-link"> Receitas</a>
+        <div class="nav-link contact-link">
+          <a href="contato.html" class="btn"> Contato </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--fim navegação-->
+  <main class="page">
+    <section class="contact-container">
+      <article class="contact-info">
+        <h3>Lorem Ipson</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec tortor suscipit, tincidunt sapien nec,
+          congue odio.
+          Quisque tincidunt ex dolor, sed aliquet sapien lacinia consequat.
+        </p>
+        <p>
+          Phasellus tristique, velit et malesuada rutrum, risus arcu ultricies mi, nec efficitur leo ex nec lorem.
+          Aliquam erat volutpat. Nullam at pellentesque nulla, quis imperdiet nunc.
+        </p>
+      </article>
+      <article>
+        <form class="form contact-form">
+          <div class="form-row">
+            <label html="name" class="form-label">Seu Nome</label>
+            <input type="text" name="name" id="name" class="form-input" />
+          </div>
+          <div class="form-row">
+            <label html="email" class="form-label">Seu Email</label>
+            <input type="text" name="email" id="email" class="form-input" />
+          </div>
+          <div class="form-row">
+            <label html="message" class="form-label">Mensagem</label>
+            <textarea name="message" id="message" class="form-textarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">
+            Enviar
+          </button>
+        </form>
+      </article>
+    </section>
+
+    <section class="featured-recipes">
+      <h5 class="featured-title">Olhe para este molho incrível!</h5>
+      <div class="recipes-list">
+
+        <a href="Receita-Simples.html" class="recipe">
+          <img src="./assets/recipes/recipe-1.jpeg" class="img recipe-img" alt="" />
+          <h5>Carne Asada</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+
+        <a href="Receita-Simples.html" class="recipe">
+          <img src="./assets/recipes/recipe-2.jpeg" class="img recipe-img" alt="" />
+          <h5>Coelho Assado</h5>
+          <p>Prep : 30min | Cook : 20min</p>
+        </a>
+
+        <a href="Receita-Simples.html" class="recipe">
+          <img src="./assets/recipes/recipe-3.jpeg" class="img recipe-img" alt="" />
+          <h5>Sopa de Vegetais</h5>
+          <p>Prep : 20min | Cozinhar : 7min</p>
+        </a>
+
+      </div>
+    </section>
+  </main>
+  <!--Rodapé-->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Simples Receitas</span>
+    </p>
+  </footer>
+</body>
+
+</html>
